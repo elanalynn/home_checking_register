@@ -10,4 +10,3 @@ This project is written with TypeScript.
 - `cd` into directory
 - Install dependencies: `yarn` or `yarn install`
 - Build: `yarn build`
-- Run `node` ...
