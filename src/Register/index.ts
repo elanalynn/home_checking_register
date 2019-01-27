@@ -1,19 +1,42 @@
 import Reconciliation from '../reconciliation'
-import RegisterError from '../_shared/RegisterError'
 import Statement from '../statement'
 
 export default class Register {
-  constructor(private bank: string, private accountNumber: string, private balance: number) {
+  private bank: string
+  private accountNumber: string
+  private balance: number
+
+  constructor(bank: string, accountNumber: string, balance: number) {
     this.bank = bank
     this.accountNumber = accountNumber
     this.balance = balance
   }
 
-  public addEntry(type: string, amount: number, description: string): void {
-    console.log('create entry') 
-  } 
+  public getBank(): string {
+    return this.bank
+  }
+
+  public setBank(bank: string): void {
+    this.bank = bank
+  }
+
+  public getAccountNumber(): string {
+    return this.accountNumber
+  }
+
+  public setAccountNumber(accountNumber: string): void {
+    this.accountNumber = accountNumber
+  }
+
+  public getBalance(): number {
+    return this.balance
+  }
+
+  public setBalance(balance: number): void {
+    this.balance = balance
+  }
   
-  public reconcile(reconciliation: Reconciliation, statement: Statement): RegisterError[] {
-    return [new RegisterError('some kind of reconciliation error')]
+  public reconcile(reconciliation: Reconciliation, statements: Statement[]): void {
+    // do something
   }
 }
