@@ -6,8 +6,8 @@ export default class Fee extends Entry {
 
   constructor(
     amount: number,
-    feeId: number,
     description: string,
+    feeId: number,
     isReconciled: boolean = true,
     statementId: number
   ) {
