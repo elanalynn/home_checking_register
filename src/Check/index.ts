@@ -1,17 +1,17 @@
 import Entry from '../Entry'
 
 export default class Check extends Entry {
-  private checkNumber: number
   private checkDate: Date
+  private checkNumber: number
   private recipient: string
 
   constructor(
+    amount: number,
     checkNumber: number,
     checkDate: Date,
-    recipient: string,
     description: string,
-    amount: number,
-    isReconciled: boolean
+    isReconciled: boolean,
+    recipient: string,
   ) {
     super(amount, description, isReconciled)
 
