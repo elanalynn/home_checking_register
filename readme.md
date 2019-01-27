@@ -6,8 +6,8 @@ This project is written with TypeScript.
 - [Node](https://nodejs.org/en/download/) 
 - [Yarn](https://yarnpkg.com/lang/en/docs/install/#mac-stable)
 
-### Setup & Tests
+### Setup and Build
 - `cd` into directory
 - Install dependencies: `yarn` or `yarn install`
-- Run tests: `yarn test`
-
+- Build: `yarn build`
+- Run `node` ...

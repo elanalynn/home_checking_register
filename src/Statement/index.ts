@@ -1,7 +1,11 @@
 export default class Statement {
-  constructor(private bankStatementId: string, private dateIssued: Date, private reconciliationId: number) {
-    this.bankStatementId: string = bankStatementId
-    this.dateIssued: Date = dateIssued
-    this.reconciliationId: number = reconciliationId
+  private bankStatementId: string
+  private dateIssued: Date
+  private reconciliationId: number
+
+  constructor(bankStatementId: string, dateIssued: Date, reconciliationId: number) {
+    this.bankStatementId = bankStatementId
+    this.dateIssued = dateIssued
+    this.reconciliationId = reconciliationId
   }
 }

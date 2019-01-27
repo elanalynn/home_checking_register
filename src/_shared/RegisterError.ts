@@ -1,5 +1,7 @@
 export default class RegisterError {
-  constructor(private description: string) {
-    this.description: string = description
+  private description: string
+
+  constructor(description: string) {
+    this.description = description
   }
 }

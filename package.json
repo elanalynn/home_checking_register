@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "prebuild": "rm -rf lib",
-    "test": "mocha -r ts-node/register **/*.spec.js"
+    "prebuild": "rm -rf lib"
   },
   "repository": {
     "type": "git",
@@ -19,12 +18,5 @@
   },
   "devDependencies": {
     "typescript": "^3.2.4"
-  },
-  "dependencies": {
-    "@types/chai": "^4.1.7",
-    "@types/mocha": "^5.2.5",
-    "chai": "^4.2.0",
-    "mocha": "^5.2.0",
-    "ts-node": "^7.0.1"
   }
 }
