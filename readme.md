@@ -3,8 +3,8 @@
 This project is written with TypeScript.
 
 ### Requirements
-- [Node](https://nodejs.org/en/download/) 
-- [Yarn](https://yarnpkg.com/lang/en/docs/install/#mac-stable)
+- Install [Node](https://nodejs.org/en/download/) 
+- Install [Yarn](https://yarnpkg.com/lang/en/docs/install/#mac-stable)
 
 ### Setup and Build
 - `cd` into directory
